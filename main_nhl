@@ -3,66 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anh Đức &amp; Hồng Liên Wedding Website!</title>
-    <meta name="description" content="Anh Đức &amp; Hồng Liên - 2024-03-01">
+    <title>Đám Cưới của Anh Đức & Hồng Liên</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Our Wedding</h1>
-        <p>Join us as we celebrate our love!</p>
+        <h1>Chào Mừng Đến Với Đám Cưới Của Chúng Tôi</h1>
+        <p>Hãy cùng chúng tôi chúc mừng tình yêu này!</p>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#our-story">Our Story</a></li>
-            <li><a href="#details">Wedding Details</a></li>
+            <li><a href="#our-story">Câu Chuyện Của Chúng Tôi</a></li>
+            <li><a href="#details">Chi Tiết Đám Cưới</a></li>
             <li><a href="#rsvp">RSVP</a></li>
-            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#gallery">Thư Viện Ảnh</a></li>
         </ul>
     </nav>
 
     <section id="our-story">
-        <h2>Our Story</h2>
-        <p>Tell the story of how you met and fell in love.</p>
+        <h2>Câu Chuyện Của Chúng Tôi</h2>
+        <p>Chúng tôi đã gặp nhau lần đầu tiên tại một buổi tiệc và tình yêu đã nảy nở từ đó...</p>
     </section>
 
     <section id="details">
-        <h2>Wedding Details</h2>
-        <p>Date: [Your Wedding Date]</p>
-        <p>Location: [Venue Name and Address]</p>
-        <p>Time: [Ceremony Time]</p>
+        <h2>Chi Tiết Đám Cưới</h2>
+        <p><strong>Ngày:</strong> [Ngày Cưới]</p>
+        <p><strong>Địa điểm:</strong> [Tên và Địa Chỉ Nơi Tổ Chức]</p>
+        <p><strong>Thời gian:</strong> [Thời Gian Lễ Cưới]</p>
     </section>
 
     <section id="rsvp">
         <h2>RSVP</h2>
-        <p>Please let us know if you can join us!</p>
+        <p>Xin vui lòng cho chúng tôi biết bạn có thể tham gia không!</p>
         <form action="submit_rsvp.php" method="POST">
-            <label for="name">Your Name:</label>
+            <label for="name">Tên Của Bạn:</label>
             <input type="text" id="name" name="name" required>
-            <label for="attendance">Will you attend?</label>
+            <label for="attendance">Bạn có tham dự không?</label>
             <select id="attendance" name="attendance" required>
-                <option value="">Select...</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+                <option value="">Chọn...</option>
+                <option value="yes">Có</option>
+                <option value="no">Không</option>
             </select>
-            <button type="submit">Submit</button>
+            <button type="submit">Gửi</button>
         </form>
     </section>
 
     <section id="gallery">
-        <h2>Gallery</h2>
-        <p>Check out some of our favorite moments together!</p>
+        <h2>Thư Viện Ảnh</h2>
+        <p>Những khoảnh khắc tuyệt vời của chúng tôi:</p>
         <div class="gallery">
-            <img src="image1.jpg" alt="Moment 1">
-            <img src="image2.jpg" alt="Moment 2">
-            <img src="image3.jpg" alt="Moment 3">
+            <img src="image1.jpg" alt="Khoảnh Khắc 1">
+            <img src="image2.jpg" alt="Khoảnh Khắc 2">
+            <img src="image3.jpg" alt="Khoảnh Khắc 3">
         </div>
     </section>
 
     <footer>
-        <p>Thank you for visiting our wedding website!</p>
-        <p>&copy; 2024 [Your Names]</p>
+        <p>Cảm ơn bạn đã ghé thăm trang web đám cưới của chúng tôi!</p>
+        <p>&copy; 2024 Anh Đức & Hồng Liên</p>
     </footer>
 </body>
 </html>
